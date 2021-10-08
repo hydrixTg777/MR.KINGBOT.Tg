@@ -15,17 +15,15 @@
 </p>
 </a>
 
-## 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Robot&theme=dark)
 
 ## 𝐃𝐄𝐏𝐋𝐎𝐘
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/TGN-Robot)
 
 
-## 🆅🅴🆁🅸🅰🅱🅻🅴🆂
+## ☞︎︎︎ ᴠᴇʀɪᴀʙʟᴇs ☜︎︎︎
 [ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Itsunknown-12/Zaid-Robot/blob/master/Configuration)
 
-## 🆂🆄🅿🅿🅾🆁🆃
+## ✪ՏᑌᑭᑭOᖇT✪
 [![MR.KINGBOT](https://img.shields.io/badge/TgW0RLD-channel-red?style=for-the-badge&logo=telegram)](https://t.me/TgW0RLD)</br></br>
 [![KINGBOT](https://img.shields.io/badge/TG_CHATHUB-Group-red?style=for-the-badge&logo=telegram)](https://t.me/TG_CHATHUB)</br></br>
 [![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/VIJAY114220)
