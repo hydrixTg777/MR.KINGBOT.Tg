@@ -358,25 +358,22 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *TGN Robot*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
+            text=""" ℹ️ I'm *MR.KINGBOT*, a powerful group management bot built to help you manage your group easily.
+                 \n➥ I can restrict users.
+                 \n➥ I can greet users with customizable welcome messages and even set a group's rules.
+                 \n➥ I have an advanced anti-flood system.
+                 \n➥ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n➥ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \n➥ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ TGN  @The_Godfather_Network
-                 \n❍ Support Group @Godfathersupport
-                 \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \nHere is the [💾Repository](https://github.com/Viju60/MR.KINGBOT).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="layla_back")
+                    InlineKeyboardButton(text="❰❰ BACK ❱❱", callback_data="layla_back")
                  ]
                 ]
             ),
@@ -396,8 +393,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TGNRobot*
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I'm *MR.KING*
+                 \nHere is the [DEVELOPER](https://t.me/Vijay114220) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -469,7 +466,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="❰❰ BACK ❱❱", callback_data="help_back")]]
             ),
         )
 
@@ -542,7 +539,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="❰❰ BACK ❱❱",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -692,7 +689,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "KYA LAGTA THA NHI LOTENGE GALAT JABB TAKK TODENGE NHI TAB TAK CHODENGE NHI😈")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
