@@ -238,18 +238,18 @@ def info(update: Update, context: CallbackContext):
     else:
         return
 
-    rep = message.reply_text("<code>Appraising...</code>", parse_mode=ParseMode.HTML)
+    rep = message.reply_text("<code>🇵 🇷 🇴 🇨 🇪 🇸 🇸 🇮 🇳 🇬 ...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╒═══「<b> Appraisal results:</b> 」\n"
-        f"ID: <code>{user.id}</code>\n"
-        f"First Name: {html.escape(user.first_name)}"
+        f"┏━━➤ ❰❰<b> 🆄🆂🅴🆁 🅸🅽🅵🅾:</b> ❱❱\n"
+        f"┣━❰❰ ID ❱❱: <code>{user.id}</code>\n"
+        f"┣━❰❰ First Name ❱❱: {html.escape(user.first_name)}"
     )
 
-    if user.last_name:
+    if user.━━➤ last_name:
         text += f"\nLast Name: {html.escape(user.last_name)}"
 
-    if user.username:
+    if user.━━➤ username:
         text += f"\nUsername: @{html.escape(user.username)}"
 
     text += f"\nPermalink: {mention_html(user.id, 'link')}"
