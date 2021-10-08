@@ -73,45 +73,44 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+PM_START_TEXT = """💫 HOI....♥️
+🟡 I AM HERE TO HELP YOU TO MANAGE YOUR GROUPS AND I AM VERY POWERFULL BOT!!
+🟡YOU CAN FIND THE LIST OF AVALABLE COMMANDS WITH /help [♥️](https://telegra.ph/file/79ad876457906a1137917.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="🤗KIDNAP KR LO MUZE🥺", url="t.me/MR_KING_RO_BOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="🔱 OWNER 🔱", url=f"https://t.me/vijay114220"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🧐SUPPORT🧐", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="UPDATE☑️", url=f"https://t.me/TgW0RLD"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="SUPPORT GROUP🤗", url=f"https://t.me/TG_CHATHUB"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP AND COMMAND ❔", callback_data="help_back"),
     ],
 ]
 
 
-HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
+HELP_STRINGS = """🔳  YOU CAN CHOOSE AN OTION BELOW, BY CLICKING A BUTTON..
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+▓➪ /start ->> START THE BOT
+▓➪ /help ->> {MODULE NAME} : PM'S YOU INFO ABOUT THAT MODULE..
+▓➪ ALL COMMANDS CAN EITHER BE USED WITH (/) OR (!)..
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+🔳 ALSO YOU CAN ASK ANYTHING IN [SUPPORT GROUP](https://t.me/TG_CHATHUB) [🤗](https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg)"""
+
+START_IMG = "https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg"
+
 
 IMPORTED = {}
 MIGRATEABLE = []
