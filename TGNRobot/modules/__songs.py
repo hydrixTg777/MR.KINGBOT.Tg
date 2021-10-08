@@ -129,7 +129,7 @@ async def deezer(_, message):
         return
     text = message.text.split(None, 1)[1]
     query = text.replace(" ", "%20")
-    m = await message.reply_text("Searching...")
+    m = await message.reply_text("🆂🅴🅰🆁🅲🅷🅸🅽🅶...")
     try:
         r = await fetch(f"{ARQ}deezer?query={query}&count=1")
         title = r[0]["title"]
@@ -146,13 +146,13 @@ async def deezer(_, message):
     await m.delete()
     
     
-__mod_name__ = "◎Music"
+__mod_name__ = "MUSIC🎵"
 
 __help__ = """
-• `/song`** <songname artist(optional)>: download the song in it's best quality available.(API BASED)
-• `/video`** <songname artist(optional)>: download the video song in it's best quality available.
-• `/deezer`** <songname>: download from deezer
-• `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
-• `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
+❒ `/song`** <songname artist(optional)>: download the song in it's best quality available.(API BASED)
+❒ `/video`** <songname artist(optional)>: download the video song in it's best quality available.
+❒ `/deezer`** <songname>: download from deezer
+❒ `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
+❒ `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
 """
 
