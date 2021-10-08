@@ -1,7 +1,7 @@
-<h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭❞ </h1>
+<h1 align = "center"> ❝𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗚𝗥𝗢𝗨𝗣 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 𝗕𝗢𝗧❞ </h1>
 
 
-<p align = "center"><a herf = "https://t.me/Zaid2_Ro_bot" alt = "Zaid"><img src = "https://telegra.ph/file/9ddae7a1ff3bc34e66418.png" width = "900"></a></p>
+<p align = "center"><a herf = "https://t.me/MR_KING_RO_BOT" alt = "MR.KING"><img src = "https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg" width = "900"></a></p>
 
 <p align = "center">
 <a href = "https://python.org">
@@ -15,10 +15,10 @@
 </p>
 </a>
 
-## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
+## 𝐑𝐄𝐏𝐎 𝐒𝐓𝐀𝐓𝐒
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Robot&theme=dark)
 
-## 🅓🅔🅟🅛🅞🅨
+## 𝐃𝐄𝐏𝐋𝐎𝐘
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/TGN-Robot)
 
 
