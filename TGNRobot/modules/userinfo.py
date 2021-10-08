@@ -246,10 +246,10 @@ def info(update: Update, context: CallbackContext):
         f"┣━❰❰ First Name ❱❱: {html.escape(user.first_name)}"
     )
 
-    if user.━━➤ last_name:
+    if user. last_name:
         text += f"\nLast Name: {html.escape(user.last_name)}"
 
-    if user.━━➤ username:
+    if user. username:
         text += f"\nUsername: @{html.escape(user.username)}"
 
     text += f"\nPermalink: {mention_html(user.id, 'link')}"
