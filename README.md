@@ -26,13 +26,13 @@
 [ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Itsunknown-12/Zaid-Robot/blob/master/Configuration)
 
 ## 🆂🆄🅿🅿🅾🆁🆃
-[![MR.KINGBOT](https://img.shields.io/badge/TgW0RLD-channel-red?style=for-the-badge&logo=telegram)](https://t.me/SUPERIOR_BOTS)</br></br>
-[![KINGBOT](https://img.shields.io/badge/TG_CHATHUB-Group-red?style=for-the-badge&logo=telegram)](https://t.me/SUPERIOR_SUPPORT)</br></br>
+[![MR.KINGBOT](https://img.shields.io/badge/TgW0RLD-channel-red?style=for-the-badge&logo=telegram)](https://t.me/TgW0RLD)</br></br>
+[![KINGBOT](https://img.shields.io/badge/TG_CHATHUB-Group-red?style=for-the-badge&logo=telegram)](https://t.me/TG_CHATHUB)</br></br>
 [![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/VIJAY114220)
 
 ## 🆃🅷🅰🅽🅺🆂 🅵🅾🆁 🅲🅾🅳🅴🆂...
 
  - Saitama Robot - for Modules
  - Layla Bot - for Some Help modules
-
+ 🤗 SPECAL THANKS [BOO](https://t.me/Timesisnotwaiting)
 
