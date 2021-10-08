@@ -84,21 +84,21 @@ def markdown_help(update: Update, context: CallbackContext):
 __help__ = """
 *Available commands:*
 *Markdown:*
- ❍ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
+ ➜ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
 *Paste:*
- ❍ /paste*:* Saves replied content to `nekobin.com` and replies with a url
+ ➜ /paste*:* Saves replied content to `nekobin.com` and replies with a url
 *React:*
- ❍ /react*:* Reacts with a random reaction 
+ ➜ /react*:* Reacts with a random reaction 
 *Urban Dictonary:*
- ❍ /ud <word>*:* Type the word or expression you want to search use
+ ➜ /ud <word>*:* Type the word or expression you want to search use
 *Wikipedia:*
- ❍ /wiki <query>*:* wikipedia your query
+ ➜ /wiki <query>*:* wikipedia your query
 *Wallpapers:*
- ❍ /wall <query>*:* get a wallpaper from wall.alphacoders.com
+ ➜ /wall <query>*:* get a wallpaper from wall.alphacoders.com
 *live cricket score*
- ❍ /cs*:* Latest live scores from cricinfo
+ ➜ /cs*:* Latest live scores from cricinfo
 *Currency converter:* 
- ❍ /cash*:* currency converter
+ ➜ /cash*:* currency converter
 Example:
  `/cash 1 USD INR`  
       _OR_
@@ -107,21 +107,21 @@ Output: `1.0 USD = 75.505 INR`
 
 *MATHS*
 Solves complex math problems using https://newton.now.sh
-❍ /math*:* Math `/math 2^2+2(2)`
-❍ /factor*:* Factor `/factor x^2 + 2x`
-❍ /derive*:* Derive `/derive x^2+2x`
-❍ /integrate*:* Integrate `/integrate x^2+2x`
-❍ /zeroes*:* Find 0's `/zeroes x^2+2x`
-❍ /tangent*:* Find Tangent `/tangent 2lx^3`
-❍ /area*:* Area Under Curve `/area 2:4lx^3`
-❍ /cos*:* Cosine `/cos pi`
-❍ /sin*:* Sine `/sin 0`
-❍ /tan*:* Tangent `/tan 0`
-❍ /arccos*:* Inverse Cosine `/arccos 1`
-❍ /arcsin*:* Inverse Sine `/arcsin 0`
-❍ /arctan*:* Inverse Tangent `/arctan 0`
-❍ /abs*:* Absolute Value `/abs -1`
-❍ /log*:* Logarithm `/log 2l8`
+❶ /math*:* Math `/math 2^2+2(2)`
+❷ /factor*:* Factor `/factor x^2 + 2x`
+❸ /derive*:* Derive `/derive x^2+2x`
+❹ /integrate*:* Integrate `/integrate x^2+2x`
+❺ /zeroes*:* Find 0's `/zeroes x^2+2x`
+❻ /tangent*:* Find Tangent `/tangent 2lx^3`
+❼ /area*:* Area Under Curve `/area 2:4lx^3`
+❽ /cos*:* Cosine `/cos pi`
+❾ /sin*:* Sine `/sin 0`
+❿ /tan*:* Tangent `/tan 0`
+❶❶ /arccos*:* Inverse Cosine `/arccos 1`
+❶❷ /arcsin*:* Inverse Sine `/arcsin 0`
+❶❸ /arctan*:* Inverse Tangent `/arctan 0`
+❶❹ /abs*:* Absolute Value `/abs -1`
+❶❺ /log*:* Logarithm `/log 2l8`
 
 _Keep in mind_: To find the tangent line of a function at a certain x value, send the request as c|f(x) where c is the given x value and f(x) is the function expression, the separator is a vertical bar '|'. See the table above for an example request.
 To find the area under a function, send the request as c:d|f(x) where c is the starting x value, d is the ending x value, and f(x) is the function under which you want the curve between the two x values.
@@ -136,7 +136,7 @@ MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help)
 dispatcher.add_handler(ECHO_HANDLER)
 dispatcher.add_handler(MD_HELP_HANDLER)
 
-__mod_name__ = "Extras"
+__mod_name__ = "EXTRAS🌝"
 __command_list__ = ["id", "echo"]
 __handlers__ = [
     ECHO_HANDLER,
