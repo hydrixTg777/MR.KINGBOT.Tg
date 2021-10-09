@@ -96,6 +96,10 @@ buttons = [
         ),
     ],
     [
+        InlineKeyboardButton(text="🎧VC (MUSIC)PLAYER🎧", url=f"https://t.me/TgW0RLD/30"),
+        ),
+    ],
+    [
         InlineKeyboardButton(text="HELP AND COMMAND ❔", callback_data="help_back"),
     ],
 ]
