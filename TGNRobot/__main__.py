@@ -85,13 +85,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🔱 OWNER 🔱", url=f"https://t.me/vijay114220"),
-        InlineKeyboardButton(
-            text="🅰️BOUT ME", url=f"https://t.me/TgW0RLD/26"
+        InlineKeyboardButton(text="🅰️BOUT ME", url=f"https://t.me/TgW0RLD/26"),
         ),
     ],
     [
         InlineKeyboardButton(text="UPDATE☑️", url=f"https://t.me/TgW0RLD"),
-        InlineKeyboardButton(text="SUPPORT GROUP🤗", url=f"https://t.me/TG_CHATHUB"
+        InlineKeyboardButton(text="SUPPORT GROUP🤗", url=f"https://t.me/TG_CHATHUB"),
     ],
     [
         InlineKeyboardButton(text="🎧VC (MUSIC)PLAYER🎧", url=f"https://t.me/TgW0RLD/30"),
