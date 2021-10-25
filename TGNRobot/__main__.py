@@ -74,10 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """💫 HOI....♥️
-━━━━━━━━━━━━━━━━━
- ◈◈◈ **VkTgBotz** ◈◈◈
-━━━━━━━━━━━━━━━━━
-
+◈◈◈ **VkTgBotz** ◈◈◈
 ┏━━━━━━━━━━━━━━━┓
 ❥︎ {message.from_user.mention()}</b>
 ┗━━━━━━━━━━━━━━━┛
