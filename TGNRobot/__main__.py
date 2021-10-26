@@ -73,27 +73,26 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ **HOI**[♥️](https://telegra.ph/file/79ad876457906a1137917.jpg)
-   
- ━━━━╾✿❰[𓄂MR PROBOT࿐](http://t.me/PRO_VK_ROBOT)❱✿╼━━━━
-
-🟡 **I AM HERE TO HELP YOU TO MANAGE YOUR GROUPS AND I AM VERY POWERFULL BOT**!!
-🟡YOU CAN FIND THE LIST OF AVALABLE COMMANDS WITH /help
+PM_START_TEXT = """ ʜɪɪ [❤️](https://telegra.ph/file/890623fcce9d31de61322.jpg)
+╭──╼❀⊰ [ 𓄂I AM PROBOT࿐](https://t.me/PRO_VK_ROBOT)
+┻━━━━━━━━━━━━━━━━━━⊰✿
+❖ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+❖ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🤗KIDNAP KR LO MUZE🥺", url="t.me/PRO_VK_ROBOT?startgroup=true"),
+            text="😁ꜱɪʀ ᴋɪᴅɴᴀᴘ ᴍᴇ ᴘʟᴇᴀꜱᴇ😅", url="t.me/PRO_VK_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔱 OWNER 🔱", url=f"https://t.mr/VIJAY_ABOUT"),
+        InlineKeyboardButton(text="𝖮𝖶𝖭𝖤𝖱😏", url=f"https://t.me/VIJAY_ABOUT"),
         InlineKeyboardButton(
             text="🅰️BOUT ME", url=f"https://t.me/VkTgBotz"),
     ],
     [
-        InlineKeyboardButton(text="UPDATE☑️", url=f"https://t.me/VkTgBotz"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ & ɴᴇᴡꜱ☑️", url=f"https://t.me/VkTgBotz"),
         InlineKeyboardButton(
-            text="SUPPORT GROUP🤗", url=f"https://t.me/VkTgBotSupport"),
+            text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🤗", url=f"https://t.me/VkTgBotSupport"),
     ],
     [
         InlineKeyboardButton(text="𝗛𝗘𝗟𝗣 𝗔𝗡𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❔", callback_data="help_back"),
