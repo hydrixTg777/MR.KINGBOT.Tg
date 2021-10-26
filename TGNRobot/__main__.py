@@ -74,25 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ ʜɪɪ [❤️](https://telegra.ph/file/890623fcce9d31de61322.jpg)
-╭──╼❀⊰ [ 𓄂I AM PROBOT࿐](https://t.me/PRO_VK_ROBOT)
-┻━━━━━━━━━━━━━━━━━━⊰✿
+[ᴘʀᴏ_ᴠᴋ_ʀᴏʙᴏᴛ](https://t.me/PRO_VK_ROBOT)
 ❖ *ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ*.
 ❖ *ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ*! ʜɪᴛ /help .
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="😁ꜱɪʀ ᴋɪᴅɴᴀᴘ ᴍᴇ ᴘʟᴇᴀꜱᴇ😅", url="t.me/PRO_VK_ROBOT?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/PRO_VK_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝖮𝖶𝖭𝖤𝖱😏", url=f"https://t.me/VIJAY_ABOUT"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/VIJAY_ABOUT"),
         InlineKeyboardButton(
-            text="🅰️BOUT ME", url=f"https://t.me/VkTgBotz/5"),
+            text="ᴀʙᴏᴜᴛ", url=f"https://t.me/VkTgBotz/5"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ & ɴᴇᴡꜱ☑️", url=f"https://t.me/LaylaList"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/LaylaList"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🤗", url=f"https://t.me/AwesomeSupport"),
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/AwesomeSupport"),
     ],
     [
         InlineKeyboardButton(text="𝗛𝗘𝗟𝗣 𝗔𝗡𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❔", callback_data="help_back"),
@@ -100,16 +99,10 @@ buttons = [
 ]
 
 
-HELP_STRINGS = """┏━━━━━━「 ✿✿✿ 」━━━━━━┓
-                             ʜɪɪ....[❤️](https://telegra.ph/file/6b7ed3399863032bda7bc.jpg)
-                  ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ
-      ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ
-                      ᴀ ʙᴜᴛᴛᴏɴ..
-      ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ
-                   [ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/VkTgBotSupport)
-┗━━━━━━「 ✿✿✿ 」━━━━━━━┛
-
-❤️ ᴀʟꜱᴏ ᴊᴏɪɴ » [@ᴠᴋᴛɢʙᴏᴛᴢ](https://t.me/VkTgBotz)"""
+HELP_STRINGS = """
+`Hi.. ɪ'ᴍ` ᴘʀᴏ ᴠᴋ ʀᴏʙᴏᴛ
+`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
+"""
 
 START_IMG = "https://telegra.ph/file/890623fcce9d31de61322.jpg"
 
@@ -225,7 +218,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code> 𓄂MR.PROBOT࿐ is Here For You❤\nI 🅰️m 🅰️wake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code> ᴘʀᴏ_ᴠᴋ_ʀᴏʙᴏᴛ is Here For You❤\nI 🅰️m 🅰️wake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
