@@ -90,9 +90,9 @@ buttons = [
             text="🅰️BOUT ME", url=f"https://t.me/VkTgBotz/5"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ & ɴᴇᴡꜱ☑️", url=f"https://t.me/VkTgBotz"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ & ɴᴇᴡꜱ☑️", url=f"https://t.me/LaylaList"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🤗", url=f"https://t.me/VkTgBotSupport"),
+            text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🤗", url=f"https://t.me/AwesomeSupport"),
     ],
     [
         InlineKeyboardButton(text="𝗛𝗘𝗟𝗣 𝗔𝗡𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❔", callback_data="help_back"),
