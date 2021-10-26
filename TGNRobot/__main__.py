@@ -74,39 +74,40 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ **HOI**[♥️](https://telegra.ph/file/79ad876457906a1137917.jpg)
-    ━━━━╾✿❰[𓄂MR PROBOT࿐](http://t.me/PRO_VK_ROBOT)❱✿╼━━━━
-┏━━━━━━━━━━━━━━━━┓  🇴 🇵┗━━━━━━━━━━━━━━━━┛
+   
+ ━━━━╾✿❰[𓄂MR PROBOT࿐](http://t.me/PRO_VK_ROBOT)❱✿╼━━━━
+
 🟡 **I AM HERE TO HELP YOU TO MANAGE YOUR GROUPS AND I AM VERY POWERFULL BOT**!!
 🟡YOU CAN FIND THE LIST OF AVALABLE COMMANDS WITH /help
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🤗KIDNAP KR LO MUZE🥺", url="t.me/MR_KING_RO_BOT?startgroup=true"),
+            text="🤗KIDNAP KR LO MUZE🥺", url="t.me/PRO_VK_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔱 OWNER 🔱", url=f"https://t.me/vijay114220"),
+        InlineKeyboardButton(text="🔱 OWNER 🔱", url=f"https://t.mr/VIJAY_ABOUT"),
         InlineKeyboardButton(
-            text="🅰️BOUT ME", url=f"https://t.me/TgW0RLD/26"),
+            text="🅰️BOUT ME", url=f"https://t.me/VkTgBotz"),
     ],
     [
-        InlineKeyboardButton(text="UPDATE☑️", url=f"https://t.me/TgW0RLD"),
+        InlineKeyboardButton(text="UPDATE☑️", url=f"https://t.me/VkTgBotz"),
         InlineKeyboardButton(
-            text="SUPPORT GROUP🤗", url=f"https://t.me/TG_CHATHUB"),
+            text="SUPPORT GROUP🤗", url=f"https://t.me/VkTgBotSupport"),
     ],
     [
-        InlineKeyboardButton(text="HELP AND COMMAND ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝗛𝗘𝗟𝗣 𝗔𝗡𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❔", callback_data="help_back"),
     ],
 ]
 
 
-HELP_STRINGS = """🔳  YOU CAN CHOOSE AN OTION BELOW, BY CLICKING A BUTTON..
+HELP_STRINGS = """🔳  **YOU CAN CHOOSE AN OTION BELOW, BY CLICKING A BUTTON**..
 
-▓➪ /start ->> START THE BOT
-▓➪ /help ->> {MODULE NAME} : PM'S YOU INFO ABOUT THAT MODULE..
-▓➪ ALL COMMANDS CAN EITHER BE USED WITH (/) OR (!)..
+▓➪ /start ->> **START THE BOT**
+▓➪ /help ->> {MODULE NAME} : **PM'S YOU INFO ABOUT THAT MODULE**..
+▓➪ **ALL COMMANDS CAN EITHER BE USED WITH** (/) **OR** (!)..
 
-🔳 ALSO YOU CAN ASK ANYTHING IN [SUPPORT GROUP](https://t.me/TG_CHATHUB) [🤗](https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg)"""
+🔳 **ALSO YOU CAN ASK ANYTHING IN** [SUPPORT GROUP](https://t.me/VkTgBotSupport) [🤗](https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg)"""
 
 START_IMG = "https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg"
 
@@ -392,14 +393,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *MR.KING*
-                 \nHere is the [DEVELOPER](https://t.me/Vijay114220) .""",
+            text=""" Hi..🤗 I'm *MR.PROBOT*
+                 \nHere is the [REPO](https://t.me/VkTgBotz) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="👈BACK👉", callback_data="source_back")
                  ]
                 ]
             ),
