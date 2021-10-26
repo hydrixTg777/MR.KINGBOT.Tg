@@ -16,7 +16,7 @@ async def song(client, message):
     message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("<b>Enter song name❗</b>")
+        await message.reply("<b>Enter *song name*❗</b>")
         return ""
     m = await message.reply_text(
         "Downloading your song,\nPlz wait ⏳️"
@@ -138,21 +138,21 @@ async def deezer(_, message):
     except Exception as e:
         await m.edit(str(e))
         return
-    await m.edit("Downloading...")
+    await m.edit("*Downloading*...")
     song = await download_song(url)
-    await m.edit("Uploading...")
+    await m.edit("*Uploading*...")
     await message.reply_audio(audio=song, title=title, performer=artist)
     os.remove(song)
     await m.delete()
     
     
-__mod_name__ = "MUSIC🎵"
+__mod_name__ = "*MUSIC*🎵"
 
 __help__ = """
-❒ `/song`** <songname artist(optional)>: download the song in it's best quality available.(API BASED)
-❒ `/video`** <songname artist(optional)>: download the video song in it's best quality available.
-❒ `/deezer`** <songname>: download from deezer
-❒ `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
-❒ `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
+❒ `/song`** <songname artist(optional)>: *download the song in it's best quality available*.(API BASED)
+❒ `/video`** <songname artist(optional)>: *download the video song in it's best quality available*.
+❒ `/deezer`** <songname>: *download from deezer*
+❒ `/lyrics`** <songname artist(optional)>: *sends the complete lyrics of the song provided as input*
+❒ `/glyrics`** <i> song name </i> : *This plugin searches for song lyrics with song name and artist*.
 """
 
