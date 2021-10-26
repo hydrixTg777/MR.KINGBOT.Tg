@@ -100,15 +100,18 @@ buttons = [
 ]
 
 
-HELP_STRINGS = """🔳  **YOU CAN CHOOSE AN OTION BELOW, BY CLICKING A BUTTON**..
+HELP_STRINGS = """┏━━━━━━「 ✿✿✿ 」━━━━━━┓
+                             ʜɪɪ....[❤️](https://telegra.ph/file/6b7ed3399863032bda7bc.jpg)
+                  ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ
+      ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ
+                      ᴀ ʙᴜᴛᴛᴏɴ..
+      ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ
+                   [ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/VkTgBotSupport)
+┗━━━━━━「 ✿✿✿ 」━━━━━━━┛
 
-▓➪ /start ->> **START THE BOT**
-▓➪ /help ->> {MODULE NAME} : **PM'S YOU INFO ABOUT THAT MODULE**..
-▓➪ **ALL COMMANDS CAN EITHER BE USED WITH** (/) **OR** (!)..
+❤️ ᴀʟꜱᴏ ᴊᴏɪɴ » [@ᴠᴋᴛɢʙᴏᴛᴢ](https://t.me/VkTgBotz)"""
 
-🔳 **ALSO YOU CAN ASK ANYTHING IN** [SUPPORT GROUP](https://t.me/VkTgBotSupport) [🤗](https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg)"""
-
-START_IMG = "https://telegra.ph/file/5b2d53ca4f6142650ff15.jpg"
+START_IMG = "https://telegra.ph/file/890623fcce9d31de61322.jpg"
 
 
 IMPORTED = {}
