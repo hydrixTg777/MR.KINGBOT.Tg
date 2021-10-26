@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code> 𓄂MR.KINGBOT࿐ is Here For You❤\nI 🅰️m 🅰️wake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code> 𓄂MR.PROBOT࿐ is Here For You❤\nI 🅰️m 🅰️wake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -691,7 +691,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "KYA LAGTA THA NHI LOTENGE GALAT JABB TAKK TODENGE NHI TAB TAK CHODENGE NHI😈")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "*SIR JI ME IS JINDA😁 YOU KNOW NA I AM MASOOM😌*")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
