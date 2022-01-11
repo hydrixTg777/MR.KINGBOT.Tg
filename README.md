@@ -26,7 +26,7 @@
 ## ✪ՏᑌᑭᑭOᖇT✪
 [![MR.KINGBOT](https://img.shields.io/badge/TgW0RLD-channel-red?style=for-the-badge&logo=telegram)](https://t.me/TgW0RLD)</br></br>
 [![KINGBOT](https://img.shields.io/badge/TG_CHATHUB-Group-red?style=for-the-badge&logo=telegram)](https://t.me/TG_CHATHUB)</br></br>
-[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/VIJAY114220)
+[![CONTACT MbsE](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/VIJAY114220)
 
 ## 🆃🅷🅰🅽🅺🆂 🅵🅾🆁 🅲🅾🅳🅴🆂...
 
